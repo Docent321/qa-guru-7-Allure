@@ -22,8 +22,5 @@ public class BaseTest {
         $(By.linkText("Docent321/qa_guru_2")).click();
         //Проверить наличие поля Issue
         $("#issues-tab").should(text("issues"));
-
-
-
     }
 }
